@@ -40,6 +40,6 @@ end
 
    until board == 9
      turn
-     turn += 1
+     board += 1
   end
 end
