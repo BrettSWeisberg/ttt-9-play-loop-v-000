@@ -38,7 +38,7 @@ end
  def play(turn)
    turn = 1
 
-   until turn = 9
+   until turn == 9
      turn
      turn += 1
   end
