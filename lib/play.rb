@@ -39,7 +39,7 @@ end
    board = 1
 
    until board == 9
-     turn
+     turn(board)
      board += 1
   end
 end
